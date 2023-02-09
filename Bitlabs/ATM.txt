@@ -1,0 +1,58 @@
+//algorithm for ATM card transaction
+Start
+step1:Display "welcome to ATM"
+Step2:Insert your card
+      if card is accepted
+      {
+        display "choose language"
+          * English
+          * Telugu
+          * Hindi
+        if input is cashwithdraw
+        {
+          Display the account  type
+             * current account
+             * savings account
+        if account type is savings
+        {
+          Display "enter amount"
+          Display "enter the PIN"
+          read PIN
+          if(PIN is valid)
+          {
+            Display "collect cash"
+            Display "Successful transaction"
+            Display "collect card"
+          else(PIN is invalid)
+          {
+            Display "re-enter the PIN"
+          }
+          }
+        else if input is deposit
+        {
+          Display "enter the amount"
+          read amount
+          if(amount<=2000)
+          {
+            Display "enter the PIN"
+            Display "transaction successful"
+            Display  "remove card"
+          }
+         }
+        else if input is check balance
+        {
+          Display "enter the PIN"
+          if PIN is valid
+          {
+            Display "balance"
+          else
+           Display "PIN is invalid"
+           }
+          }
+        else card is not accepted
+        {
+          Display "card is invalid"
+        }
+step3:Display "Thankyou"
+stop
+      

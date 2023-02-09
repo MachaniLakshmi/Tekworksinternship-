@@ -1,0 +1,5 @@
+Start
+Step1:Read P,T,R;
+Step2:Simple interest=P*T*R/100;
+Step3:Display Simple interest;
+Stop

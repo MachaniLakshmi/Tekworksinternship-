@@ -1,0 +1,30 @@
+Start
+Step1:Read month
+Step2:if(month==1)
+         display "January"
+      else if(month==2)
+         display "February"
+      else if(month==3)
+         display "March"
+      else if(month==4)
+         display "April"
+      else if(month==5)
+         display "May"
+      else if(month==6)
+         display "June"
+      else if(month==7)
+         display "July"
+      else if(month==8)
+         display "August"
+      else if(month==9)
+         display "September"
+      else if(month==10)
+         display "October"
+      else if(month==11)
+         display "November"
+      else if(month==12)
+         display "December"
+      else
+         display "invalid"
+Stop
+      

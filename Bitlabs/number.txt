@@ -1,0 +1,9 @@
+Start
+Step1:read n,i=1,s=0;
+step2:while(i<=n)
+      {
+         s=((n^2)/i)+n;
+         i=i+1;
+      }
+step3:display s
+
