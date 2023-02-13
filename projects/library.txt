@@ -1,0 +1,61 @@
+//Algorithm for library management system
+start
+step1:login
+step2:Display "enter the details"
+step3:read email_ID,password,ID;
+step4:if details is valid
+      {
+       Display mainmenu
+        *Search book
+        *Add book information
+        *search author
+        *view book
+        *edit book
+        *Delete book
+        *exit application
+      else
+      {
+        Display "details is invalid"
+      }
+step5:if user search the book
+       *bookname
+       *authorname
+       *category
+step5:check the availability of book
+step6:if book is available
+      {
+        user will reserve the book
+      }
+      else
+      {
+        Display "book is not available"
+      }
+step7:if user return the book
+      {
+        Display "scanning barcode of book"
+        Display "Enter ID
+      else if user return book after due date
+      {
+        Display "Pay fine"
+      }
+      }
+step8:if user renew the book
+      {
+        Display "extend date"
+      }
+step9:if user add  new book
+      {
+        Display "enter the details"
+             *book name
+             *author name
+             *publisher
+             *category
+step10:if book is lost or damaged
+       {
+         display "delete book"
+       }  
+step8:Display "thankyou"
+stop
+       
+
+ 
