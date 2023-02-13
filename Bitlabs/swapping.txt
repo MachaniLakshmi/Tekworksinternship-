@@ -1,0 +1,8 @@
+start
+step1:read a,b
+step2:a=a+b
+step3:b=a-b
+step4:a=a-b
+step5:Display a,b
+stop
+

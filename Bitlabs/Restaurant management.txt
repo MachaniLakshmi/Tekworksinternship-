@@ -1,0 +1,129 @@
+// Restaurant management system
+start
+step1:User login
+step2:if user login details is correct
+      {
+       Display menu
+          *roles
+          *users
+          *customers
+          *Food categories
+          *food menu
+          *orders
+       }
+step3:if select "roles"
+      {
+        Display 
+           *manager
+           *administrator
+           *chef
+           *waiter
+      else if select "users"
+      {
+        Display
+           *username
+           *phone
+           *address
+      }
+      else if select "food categories"
+      {
+        Display 
+           *chinese
+           *ice creams
+           *Fast food
+           *meals
+           *biryani
+           *cool drinks
+      }
+      else if select "food menu"
+      {
+        Display 
+           *item
+           *price
+           *category
+           *status
+      }
+      else if select "orders"
+      {
+        Display
+           *item
+           *price
+           *Quantity
+           *phone number
+           *address
+           *confirm order
+          if select "confirm order"
+          {
+            Display payment 
+              *online payment
+              *COD
+           }
+             else if select "online payment"
+             {
+               display
+                 *Gpay
+                 *phonepe
+                 *net banking
+               display "successful payment"
+               Display bill
+                 *item
+                 *quantity
+                 *price
+                 *GST
+                 *Total amount 
+               display "order tracking"
+                 *payment
+                 *status
+                 *order delivered
+               }
+             else if select "COD"
+             {
+               Display bill
+                 *item
+                 *quantity
+                 *price
+                 *GST
+                 *Total amount
+              }
+            }
+          }
+step4:if select "chef"
+      {
+        Display
+          "current orders"
+          "update orders" 
+        Display
+          "add recipe
+          "view recipe
+          "edit recipe
+       }
+step5:else user  details is incorrect
+      {
+       Display "invalid"
+      }
+step6:Display "thankyou"
+stop
+       
+
+
+
+                          
+                
+                 
+              
+        
+
+        
+
+           
+
+     
+
+
+
+           
+          
+
+
+          
+

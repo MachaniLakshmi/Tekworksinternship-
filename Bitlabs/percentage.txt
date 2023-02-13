@@ -1,0 +1,30 @@
+start
+step1:read s1,s2,s3,s4,s5
+step2:total=s1+s2+s3+s4+s5
+step3:per=(total/500)*100
+step4:if(per>=90)
+      {
+       display "Grade A"
+      }
+      else if(per>=80)
+      {
+       display "Grade B"
+      }
+      else if(per>=70)
+      {
+       display "Grade C"
+      }
+      else if(per>=60)
+      {
+       display "Grade D"
+      }
+      else if(per>=40)
+      {
+       display "Grade E"
+      }
+      else
+      {
+       display "Grade F"
+      }
+stop
+

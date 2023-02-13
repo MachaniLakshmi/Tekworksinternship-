@@ -1,0 +1,9 @@
+start
+step1:read any number n
+step2:if(n%2==0)
+      {
+        Display "it is even number"
+      }
+      else
+       "diplay "it is odd number"
+stop

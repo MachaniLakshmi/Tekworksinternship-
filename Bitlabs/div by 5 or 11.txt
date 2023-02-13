@@ -1,0 +1,15 @@
+start
+step1:read n
+step2:if(n%5==0)
+      { 
+        Display "it is divisible by 5"
+      }
+      else if(n%11==0)
+      {
+        Display "it is divisible by 11"
+      }
+      else
+      {
+        Display "it is not divisble by 5 or 11"
+      }
+stop

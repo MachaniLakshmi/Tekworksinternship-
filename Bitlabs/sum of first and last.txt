@@ -1,0 +1,11 @@
+start
+step1:read n,sum
+step2:last=n%10
+step3:while(n>=10)
+      {
+        n=n/10
+      }
+step4:first=n
+step5:sum=first+last
+step6:Display sum
+stop

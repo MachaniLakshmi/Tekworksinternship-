@@ -1,0 +1,10 @@
+start
+step1:read n
+step2:while(n>0)
+      {
+       m=n%10
+       n=n/10
+       rev=rev*10+m
+      }
+step3=display rev
+stop

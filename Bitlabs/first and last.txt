@@ -1,0 +1,10 @@
+start
+step1:read n
+step2:last=n%10
+step3:while(n>=10)
+      {
+        n=n/10
+      }
+step4:first=n
+step5:Display n
+stop

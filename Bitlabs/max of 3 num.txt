@@ -1,0 +1,15 @@
+start
+step1:read i,j,k
+step2:if(i>=j && i>=k)
+      {  
+        Display "i"
+      }
+      else if(j>=i && j>=k)
+      {
+        Display "j"
+      }
+      else
+      {
+        Display "k"
+      }
+stop 

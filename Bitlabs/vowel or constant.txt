@@ -1,0 +1,11 @@
+start
+step1:read any alphabet al
+step2:if(al=='a'||al=='e'||al=='i'||al=='o'||al=='u'||         al=='A'||al=='E'||al=='I'||al=='O'||al=='U')
+      {
+        display "it is vowel"
+      }
+      else
+      {
+        display "it is constant"
+      }
+stop

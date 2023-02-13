@@ -1,0 +1,11 @@
+start
+step1:read any character ch
+step2:if(ch>='A'&&ch<='Z')
+      { 
+        display "it is uppercase"
+      }
+      else
+      {
+        dispaly "it is lowercase"
+      }
+stop
